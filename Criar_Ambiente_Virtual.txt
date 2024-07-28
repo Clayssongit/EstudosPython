@@ -1,0 +1,9 @@
+1- Crie uma pasta e nela crie uma sub pasta para seu arquivo VENV;
+2- Abra o Vscode e abra a pasta criada para seu arquivo;
+3- Inicie o terminal (CTRL + ') e coloque o código (python -m venv venv);
+4- Inicie o windowns powerShell como adm e coloque o código:
+ (Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned) e de um ''s'';
+5- Volte no Vscode e no terminal coloque .\venv\Scripts\Active.ps1;
+6- Crie um arquivo .py;
+7- Mude o interpretador para o venv;
+8- Instale o pip python -m pip install --upgrade pip.
