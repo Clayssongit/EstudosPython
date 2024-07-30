@@ -5,6 +5,7 @@ print(type(gamesTuple))
 # - Não possibilita adicionar valores na tupla
 # - Não possibilita remover valores na tupla
 # - Não possibilita ordenar valores na tupla
+# - Não possibilita adicionar um mesmo item na tupla
 
 # 1 - Buscar os dois primeiros itens da tupla
 print(gamesTuple[:2])
