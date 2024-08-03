@@ -10,4 +10,4 @@ while(rating != -1):
         totalRating += rating
         qtdRating += 1
         average = totalRating / qtdRating
-print("A média das avaliações do jogo {} foi de {:.2f}".format(gameName, average))       
+print("A média das avaliações do jogo {} foi de {:.2f}.".format(gameName, average))      
