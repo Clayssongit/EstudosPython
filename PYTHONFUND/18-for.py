@@ -24,4 +24,4 @@ sum = 0
 for i in range(gameRating):
     note = float(input("Digite a nota para o jogo: "))
     sum += note
-print("Média de avaliação do jogo {} é {}".format(gameName, sum/gameRating))
+print("Média de avaliação do jogo {} é {:.2f}".format(gameName, sum/gameRating))
