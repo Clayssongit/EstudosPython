@@ -3,20 +3,20 @@ Conta letras maiúsculas e minúsculas:
 -> Escreva uma função em Python que receba uma string e conte o número de letras
  maiúsculas e minúsculas desta string.
 """
-# def conta_String():
-#     cont_Ma = 0
-#     cont_Mi = 0
-#     string = input("Digite seu texto: ")
+def conta_String():
+    cont_Ma = 0
+    cont_Mi = 0
+    string = input("Digite seu texto: ")
 
-#     for i in string:
-#         if i.isupper():
-#             cont_Ma += 1
-#         elif i.islower():
-#             cont_Mi += 1
-#         else:
-#             print("Caracter incorreto")
-#     print(f"Seu texto possui {cont_Ma} letras maiúsculas e {cont_Mi} letras minúsculas.")
-# conta_String()
+    for i in string:
+        if i.isupper():
+            cont_Ma += 1
+        elif i.islower():
+            cont_Mi += 1
+        else:
+            print("Caracter incorreto")
+    print(f"Seu texto possui {cont_Ma} letras maiúsculas e {cont_Mi} letras minúsculas.")
+conta_String()
 
 
 """
