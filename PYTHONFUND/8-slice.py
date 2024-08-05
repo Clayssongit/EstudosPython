@@ -20,3 +20,5 @@ print(gameDescription.replace("Fifa", "Pes")) # Altera um elemento por outro
 print(gameDescription.split('3')) # Quebra string onde possuir a virgula ou função que for passada 
 print(''.join(gameDescription)) # Junção de uma string. Caso queira apenas espaços deixa as aspas vazias
 Lista.reverse() # Inverte os itens de uma lista
+variavel.isupper() # retorna letras maiúsculas
+variavel.islower() # retorna letras minúsculas
