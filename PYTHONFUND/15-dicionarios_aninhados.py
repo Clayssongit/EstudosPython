@@ -24,7 +24,7 @@ pp.pprint(gamesDict)
 print(gamesDict["mario odyssey"]["genre"])
 
 # 2 - Adidiconar novos itens
-gamesDict["mario odyssey"]["players"] = 1
+gamesDict["mario odyssey"]["yearLauch"] = 2018
 print(gamesDict["mario odyssey"])
 
 # 3 - Excluir um dicionário
