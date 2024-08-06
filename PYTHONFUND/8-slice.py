@@ -22,3 +22,4 @@ print(''.join(gameDescription)) # Junção de uma string. Caso queira apenas esp
 Lista.reverse() # Inverte os itens de uma lista
 variavel.isupper() # retorna letras maiúsculas
 variavel.islower() # retorna letras minúsculas
+variável.index() # retorna index de uma array
