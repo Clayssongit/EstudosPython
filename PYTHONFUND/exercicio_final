@@ -29,7 +29,7 @@ def print_teams():
 def print_team_players(team):
     print(f"Jogadores do {team['name']}")
     for i, player in enumerate(team['players']):
-        print(f"f{i+1}. {player}")
+        print(f"{i+1}. {player}")
 
 while not done:
     print("O que você deseja fazer?")
