@@ -25,6 +25,12 @@ def print_teams():
     for i, team in enumerate(teams.values()):
         print(f"{i+1}. {team['name']}({len(team['players'])} jogadores)")
 
+#Função para Listar jogadores de um time
+def print_team_players(team):
+    print(f"Jogadores do {team['name']}")
+    for i, player in enumerate(team['players']):
+        print(f"f{i+1}. {player}")
+
 while not done:
     print("O que você deseja fazer?")
     print("1. Adicionar um time")
@@ -53,11 +59,39 @@ while not done:
     elif choice == "3":
         print_teams()
     elif choice == "4":
-        pass
+        print_teams()
+        team_num = int(input("Informe um núemro do time que deseja adicionar um jogador:"))
+        if team_num <= len(teams):
+            team_name = list(teams.keys())[team_num -1]
+            player_name = input("Nome do jogador: ")
+            teams[team_name]['players'].append(player_name)
+            print("Jogador adicionado no time!")
+        else:
+            print("Número invalido")
     elif choice == "5":
-        pass
+        print_teams()
+        team_num = int(input("Informe um núemro do time que deseja remover o jogador:"))
+        if team_num <= len(teams):
+            team_name = list(teams.keys())[team_num -1]
+            print_team_players(teams[team_name])
+            player_num = int(input("Informe o número do jogador que deseja remover: "))
+            if player_num <= len(teams[team_name]['players']):
+                del teams[team_name]['players'][player_num -1]
+                print("Jogador removido")
+            else:
+                print("Núemro do jogador invalido")
+        else:
+            print("Núemro do time invalido")
+
+
     elif choice == "6":
-        pass
+        print_teams()
+        team_num = int(input("Informe um núemro do time que deseja listas os jogador:"))
+        if team_num <= len(teams):
+             team_name = list(teams.keys())[team_num -1]
+             print_team_players(teams[team_name])
+        else:
+            print("Número invalido")
     elif choice == "7":
         done = True
     else:
