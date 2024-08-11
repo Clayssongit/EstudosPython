@@ -1,22 +1,23 @@
 import os 
-import time
 
-def off30m():
+def off_30m():
     shutdown = input("Você quer desligar seu computador: sim/não? ")
     
     if shutdown == 'não':
         exit()
     else:
-        time.sleep(10)
-        os.system("shutdown /s /t 1")
+        os.system("shutdown /s /t 1800")
     
-def off1h():
+def off_1h():
     shutdown = input("Você quer desligar seu computador: sim/não? ")
     
     if shutdown == 'não':
         exit()
     else:
-        time.sleep(3600)
-        os.system("shutdown /s /t 1")
+        os.system("shutdown /s /t 3600")
         
-off30m()
+# para cancelar desligamengo utilize:
+# os.system('shutdown /a')
+
+def cancel_shutdown():
+    os.system('shutdown /a')
