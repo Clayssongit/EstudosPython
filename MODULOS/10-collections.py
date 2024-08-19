@@ -14,3 +14,19 @@ g1 = game("Fifa23", 90.50, 8.5)
 g2 = game("Resident Evil 4", 300, 10.0)
 print(g1)
 print(g2) 
+
+# 3 - Ordenando dicionários
+studants = {"Pedro":23, "Ana":22, "Ronaldo":26, "Júlia":25}
+a = sorted(studants.items(), key=itemgetter(0))
+print(studants)
+print(a)
+
+# 4 - Utilizando fila ambas extremidades
+deq = deque([20, 40, 60, 80])
+deq.appendleft(10)
+print(deq)
+deq.append(90)
+print(deq)
+deq.popleft()
+deq.pop()
+print(deq)
