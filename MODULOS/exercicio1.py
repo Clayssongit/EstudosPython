@@ -1,5 +1,5 @@
 import string
-a = "0123456789"
+a = "01234567891"
 
 print(string.invertString(a))
 print(string.indPar(a))
