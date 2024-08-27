@@ -8,4 +8,6 @@ python -m venv .venv (cria um venv).
  
  para criar um arquivo txt com versões do pip list:
  pip freeze -l > requirements.txt
+ E para executar esse arquivo e instalar tudo:
+ pip install -r requirements.txt
 """
