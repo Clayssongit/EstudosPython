@@ -4,3 +4,5 @@ class Movie:
     includedPLan = False
     note = 0 
     durationMinutes = 0
+
+    
