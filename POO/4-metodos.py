@@ -16,10 +16,9 @@ class Movie:
         print(f"Ano de lançamento: {self.yearLauch} ")
         print(f"Incluso no plano? {self.includedPlan}")
         print(f"Nota do Filme: {self.note}")
-        print(f"Duração do filme: {self.durationMinutes}")
+        print(f"Duração do filme: {self.durationMinutes}\n")
 
 mario = Movie("Super Mario Bros", 2023, False, 5.0, 120)
 top_gun = Movie("Top Gun Maverick", 2022, True, 4.5, 160)
 mario.techinal_sheet()
-print('\n')
 top_gun.techinal_sheet()
