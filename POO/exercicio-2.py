@@ -17,7 +17,7 @@ class Produto:
         self.valor = valor
     
     def __str__(self):
-        return f"Produto: {self.name} - R$ {self.valor} reais"
+        return f"Produto: {self.name} - R$ {self.valor:.2f} reais"
     
     def desconto(self, perc_discout):
         v_desonto = (self.valor/100) * perc_discout
@@ -25,5 +25,8 @@ class Produto:
         return float(final_price)
 
 detergente = Produto("Detergente", 2.5)
+ps5 = Produto("PS5", 3500)
 
 print (detergente.desconto(10))
+print (detergente, detergente.desconto(29))
+print (ps5)
