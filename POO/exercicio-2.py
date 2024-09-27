@@ -29,4 +29,4 @@ ps5 = Produto("PS5", 3500)
 
 print (detergente.desconto(10))
 print (detergente, detergente.desconto(29))
-print (ps5)
+print (detergente)
