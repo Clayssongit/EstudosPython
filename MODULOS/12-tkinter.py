@@ -31,3 +31,8 @@ button = tk.Button(frame, text="Enviar", command=click)
 button.pack()
 
 window.mainloop()
+
+"""
+Para utilizar um tkinter mais bonito, utilize o customtkinter(Faça a instalação por pip).
+Ele segue a mesma estrutura do tkinter que vem junto ao python, porém com visual mais moderno.
+"""
