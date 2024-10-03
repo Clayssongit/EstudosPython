@@ -21,9 +21,9 @@ class Leon(Animal):
 h=Horse()
 h.name="Carpeado"
 h.color="Preto"
+print(h.name)
 h.escape()
 h.eat()
-print(h.name)
 
 print("")
 
