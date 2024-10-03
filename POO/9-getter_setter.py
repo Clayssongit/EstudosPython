@@ -7,10 +7,10 @@ class Enployee:
         print(f"Nome {self.name} - Salário {self.__salary}")
 
 
-#Metodo para buscar dados
+#Metodo para buscar dados (get)
     def get_salary(self):
         return self.__salary
-#Metodo para modificar atributos privados
+#Metodo para modificar atributos privados (set)
     def set_salary(self, salary):
         self.__salary = salary
 
