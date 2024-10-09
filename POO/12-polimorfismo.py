@@ -28,7 +28,7 @@ class SmartPhone(Phone):
 Moto = Phone('Moto', 'G7', 1200)
 print(Moto)
 Moto.make_a_call('123128412')
-print(f"Valor do {Moto._brand} {Moto._model_name} é R${Moto._price}.\n")
+print(f"Valor do {Moto._brand} {Moto._model_name} é R${Moto._price}.")
 print(Moto.discount())
 
 Iphone = SmartPhone("Iphone", "15", 8000, "16GB", "1TB", "60mp")
